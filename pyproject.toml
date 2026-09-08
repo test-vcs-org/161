@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "repo-161"
+version = "0.1.0"
+description = "Python test repo where certifi is both a direct and a transitive dependency (via requests)"
+authors = ["test-vcs-org <test@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.0"
+certifi = ">=2024.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
